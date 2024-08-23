@@ -1,7 +1,7 @@
-from DAXXMUSIC import app
+from AnonXMusic import app
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
-from DAXXMUSIC.utils.daxx_ban import admin_filter
+from AnonXMusic.utils.daxx_ban import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)
 async def unmute_all(_,msg):
