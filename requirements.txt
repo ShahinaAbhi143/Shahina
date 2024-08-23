@@ -1,3 +1,4 @@
+GNU nano 6.2
 aiofiles
 aiohttp
 asyncio
@@ -8,8 +9,7 @@ gitpython
 hachoir
 heroku3
 motor
-pillow==9.5.0
-numpy
+pillow
 psutil
 py-tgcalls==0.9.7
 pykeyboard
@@ -24,4 +24,3 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
-async_pymongo
